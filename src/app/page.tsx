@@ -2,13 +2,12 @@
 
 import {
   CopilotKit,
+  // useCopilotAction
 } from "@copilotkit/react-core";
 import { CopilotSidebar } from "@copilotkit/react-ui";
 import "@copilotkit/react-ui/styles.css";
 import "@copilotkit/react-textarea/styles.css";
 import "./style.css";
-import { PlaysPresentation } from "./components/PlaysPresentation";
-import plays from "../../data/plays.json"
 
 const questions = [
   "Your business is still ...\n- Pre-Launch\n- Operating\n- On-Hold",
@@ -50,48 +49,70 @@ const questions = [
   "Have you or an Accountant been bookkeeping for your business?"
 ];
 
-const instructions = `You will be an excellent business assistant, and the user asking questions will be seeking to improve their business. Your mission will be to help them improve. For this, you will need to give them recommendations.
-To know what recommend to the user, you will ask all the necessary questions, but these questions must be taken strictly from the following questions: ${questions}. You must ask the questions in the given order and one by one to the user.
-Once you have asked all the questions, based on user responses you will choose the best recommendations from this ones: ${plays}. To decide which ones are the best you have to look into the description of each one
-Return a list of selected place id with this format:
-{
- plays: [
-  {
-    "id": "id1",
-    "description": "description1",
-    "title": "title1"
-  }, 
-  {
-    "id": "id2",
-    "description": "description1",
-    "title": "title1"
-  }, 
-  {
-    "id": "id3",
-    "description": "description1",
-    "title": "title1"
-  }
-  ]
-}
-
+const instructions = `Your mission will be collect information about the business of our clients and the with this information generate plays.
+To collect the information you will ask all the necessary questions, but these questions must be taken strictly from the following questions: ${questions}. 
+You must ask the questions in the given order and one by one to the user, based on the user answers if you think that is better you can skip some questions.
+Once you have asked all the questions, based on user answers you will generate the plays. To do that you will call the action named generatePlays, 
+you must send as argument all the questions with each correspondent answer with the format:
+question1: answer1, question2: answer2, question3: answer3
 `
 
 export default function AIPresentation() {
+  // useCopilotAction(
+  //   {
+  //     name: "generatePlays",
+  //     description: "Generate the plays to recommend to the user what to do",
+  //     parameters: [
+  //       {
+  //         name: "plays",
+  //         type: "object[]",
+  //         description: "The plays to recommend to the user",
+  //         attributes: [
+  //           {
+  //             name: "id",
+  //             type: "string",
+  //             description: "The id of the play",
+  //             required: true,
+  //           },
+  //           {
+  //             name: "description",
+  //             type: "string",
+  //             description: "The description of the play",
+  //             required: true,
+  //           },
+  //           {
+  //             name: "title",
+  //             type: "string",
+  //             description: "The title of the play",
+  //             required: true,
+  //           }
+  //         ]
+  //       },
+  //     ],
+  //     handler: async ({plays}) => {
+  //       console.log(plays);
+  //     },
+  //   }
+  // );
   
   return (
-    <CopilotKit url="/api/copilotkit/">
+    <CopilotKit runtimeUrl="/api/copilotkit/">
       <CopilotSidebar
         instructions={instructions}
         defaultOpen={true}
         labels={{
-          title: "Presentation Copilot",
+          title: "Generate plays",
           initial:
-            "Hi you! 👋 I can help you with your business?",
+            "Hi you! 👋 I can generate your plays to improve your business!",
         }}
         clickOutsideToClose={false}
       >
-        <PlaysPresentation  />
+        <div>
+          Go Tackle chatbot V1
+        </div>
       </CopilotSidebar>
     </CopilotKit>
   );
 }
+
+

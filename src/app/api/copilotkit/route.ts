@@ -1,30 +1,34 @@
 // Import necessary modules and classes from various packages.
-import { CopilotBackend, OpenAIAdapter } from "@copilotkit/backend";
+import { CopilotRuntime, OpenAIAdapter } from "@copilotkit/backend";
 import { createChatbotFlow } from "./researchPlays";
 import { AnnotatedFunction } from "@copilotkit/shared";
-import assessmentsData from '../../../../data/assessments.json';
+// import assessmentsData from '../../../../data/assessments.json';
 import playsData from '../../../../data/plays.json';
+
+export interface Answer {
+  question: string,
+  answer: string,
+}
 
 // Define a runtime environment variable, indicating the environment where the code is expected to run.
 export const runtime = "edge";
 
 // Define an annotated function for the chatbot. This object includes metadata and an implementation for the function.
-const chatbotAction: AnnotatedFunction<any> = {
-  name: "chatbot", // Function name.
-  description: "Call this function to create a chatbot flow for a given topic.", // Function description.
+const generatePlays: AnnotatedFunction<any> = {
+  name: "generatePlays", // Function name.
+  description: "Call this function to generate the plays for the user", // Function description.
   argumentAnnotations: [ // Annotations for arguments that the function accepts.
     {
-      name: "topic", // Argument name.
+      name: "questionAndAnswers", // Argument name.
       type: "string", // Argument type.
-      description: "The topic for the chatbot. 5 characters or longer.", // Argument description.
+      description: "The questions that were asked to the user with their corresponding response. With the format, question: answer", // Argument description.
       required: true, // Indicates that the argument is required.
     }
   ],
-  implementation: async (topic) => { // The actual function implementation.
-    const assessments = JSON.stringify(assessmentsData);
+  implementation: async (answers) => { // The actual function implementation.
     const existingPlays = JSON.stringify(playsData);
-    console.log("topic =>", topic)
-    const result = await createChatbotFlow(topic, assessments, existingPlays);
+    console.log("answers =>", answers)
+    const result = await createChatbotFlow(answers, existingPlays);
     console.log("result =>", result);
     return result;
   },
@@ -36,11 +40,11 @@ export async function POST(req: Request): Promise<Response> {
   
   // Check if a specific environment variable is set, indicating access to certain functionality.
   if (process.env["TAVILY_API_KEY"]) {
-    actions.push(chatbotAction); // Add the chatbot action to the actions array if the condition is true.
+    actions.push(generatePlays); // Add the chatbot action to the actions array if the condition is true.
   }
   
-  // Instantiate CopilotBackend with the actions defined above.
-  const copilotKit = new CopilotBackend({
+  // Instantiate CopilotRuntime with the actions defined above.
+  const copilotKit = new CopilotRuntime({
     actions: actions,
   });
 
