@@ -9,50 +9,52 @@ import "@copilotkit/react-ui/styles.css";
 import "@copilotkit/react-textarea/styles.css";
 import "./style.css";
 
-const questions = [
-  "Your business is still ...\n- Pre-Launch\n- Operating\n- On-Hold",
-  "Have you decided on a payment processor for your business?",
-  "Which payment processor?\n- Stripe\n- Paypal\n- Other",
-  "What types of payments will you accept for your business",
-  `Do you need help with any of the following? 
-  - Downloading Stripe App to a Mobile Device
-  - Adding & Managing Products
-  - Creating a Payment Link
-  - Adding & Managing Customers
-  - Creating & Managing Invoices
-  - Customizing an Invoice Template
-  - Integrating Stripe with QuickBooks
-  - None of These
-  `,
-  "Would you like to learn more about pricing strategies?",
-  "Do you use Point of Sale System for business?",
-  `Do you need help with any of the following?
-  - Transactions
-  - Expenses
-  - Invoicing
-  - Taxes
-  - Reports and Statements
-  - None of these
-  `,
-  `Do you need help with any of the following?
-  - Adding Items
-  - Customizing Your Item Grid
-  - Setting Up a Customer Directory
-  - Managing Receipts
-  - Ordering Hardware
-  - Creating and Managing Invoices
-  - Creating a POS Passcode and Managing Team Member Access
-  - Setting Up Multiple Locations
-  - None of These
-  `,
-  "Are you using a bookkeeping or accounting tool right now?",
-  "Have you or an Accountant been bookkeeping for your business?"
-];
+// const questions = [
+//   "Your business is still ...\n- Pre-Launch\n- Operating\n- On-Hold",
+//   "Have you decided on a payment processor for your business?",
+//   "Which payment processor?\n- Stripe\n- Paypal\n- Other",
+//   "What types of payments will you accept for your business",
+//   `Do you need help with any of the following? 
+//   - Downloading Stripe App to a Mobile Device
+//   - Adding & Managing Products
+//   - Creating a Payment Link
+//   - Adding & Managing Customers
+//   - Creating & Managing Invoices
+//   - Customizing an Invoice Template
+//   - Integrating Stripe with QuickBooks
+//   - None of These
+//   `,
+//   "Would you like to learn more about pricing strategies?",
+//   "Do you use Point of Sale System for business?",
+//   `Do you need help with any of the following?
+//   - Transactions
+//   - Expenses
+//   - Invoicing
+//   - Taxes
+//   - Reports and Statements
+//   - None of these
+//   `,
+//   `Do you need help with any of the following?
+//   - Adding Items
+//   - Customizing Your Item Grid
+//   - Setting Up a Customer Directory
+//   - Managing Receipts
+//   - Ordering Hardware
+//   - Creating and Managing Invoices
+//   - Creating a POS Passcode and Managing Team Member Access
+//   - Setting Up Multiple Locations
+//   - None of These
+//   `,
+//   "Are you using a bookkeeping or accounting tool right now?",
+//   "Have you or an Accountant been bookkeeping for your business?"
+// ];
 
-const instructions = `Your mission will be collect information about the business of our clients and the with this information generate plays.
-To collect the information you will ask all the necessary questions, but these questions must be taken strictly from the following questions: ${questions}. 
-You must ask the questions in the given order and one by one to the user, based on the user answers if you think that is better you can skip some questions.
-Once you have asked all the questions, based on user answers you will generate the plays. To do that you will call the action named generatePlays, 
+const instructions = `Your mission will be collect information about the business of our clients and with this information generate plays.
+To collect the information you will ask all the necessary questions, to know which questions you will ask you MUST call the function named getQuestions, 
+and ask strictly the questions that you retrieve from there in the given order. IMPORTANT: to call the getQuestions function you need to send the assessmentType, 
+so first, you need to ask the user about what want to improve, the options are: financial, business essentials or marketing.
+Once you have the questions, you must ask the questions in the given order and one by one to the user, based on the user answers if you think that is better you can skip some questions.
+Once you have asked all the questions, based on user answers you will generate the plays. To do that you will call the function named generatePlays, 
 you must send as argument all the questions with each correspondent answer with the format:
 question1: answer1, question2: answer2, question3: answer3
 `
