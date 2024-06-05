@@ -20,6 +20,31 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Environment variables
+
+### Development (local)
+
+Make sure to add the following to an .env.local file:
+
+- OPENAI_API_KEY=your_openai_api_key
+- TAVILY_API_KEY=your_tavily_api_key
+
+## Setup Assessments and Plays Files
+Create a folder named `data` in the root of your repository and add the following files:
+
+- `assessments.json`
+- `plays.json`
+
+root/
+├── .env.local
+├── data/
+│   ├── assessments.json
+│   └── plays.json
+├── src/
+│   └── app
+├── ...
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
