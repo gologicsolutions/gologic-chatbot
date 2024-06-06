@@ -63,7 +63,7 @@ export async function POST(req: Request): Promise<Response> {
   const actions: AnnotatedFunction<any>[] = []; // Initialize an array to hold actions.
 
   // Check if a specific environment variable is set, indicating access to certain functionality.
-  if (process.env["TAVILY_API_KEY"]) { // tavily is the one that browse the internet
+  if (process.env["TAVILY_API_KEY"]) {
     actions.push(generatePlays); // Add the chatbot action to the actions array if the condition is true.
   }
   actions.push(getQuestions);
