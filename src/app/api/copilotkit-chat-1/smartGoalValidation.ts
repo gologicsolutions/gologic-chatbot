@@ -19,7 +19,7 @@ interface AgentState {
 function model() {
   return new ChatOpenAI({
     temperature: 0,
-    modelName: "gpt-4-1106-preview",
+    modelName: "gpt-4o",
     openAIApiKey: process.env["OPENAI_API_KEY"]
   });
 }
@@ -234,10 +234,10 @@ workflow.addEdge("revise", "critique");
 workflow.setEntryPoint("search");
 const app = workflow.compile();
 
-export async function researchWithLangGraph(topic: string) {
+export async function smartGoalValidationFunction(goal: string) {
   const inputs = {
     agentState: {
-      topic,
+      goal,
     },
   };
   const result = await app.invoke(inputs);
