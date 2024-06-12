@@ -8,7 +8,9 @@ interface Criteria {
   suggestedFixes: string;
 }
 
-export async function smartGoalValidationFunction(goal: string): Promise<Criteria[]> {
+export async function smartGoalValidationFunction(
+  goal: string
+): Promise<Criteria[]> {
   const openAI = new ChatOpenAI({
     temperature: 0,
     modelName: "gpt-4o",
@@ -49,10 +51,19 @@ export async function smartGoalValidationFunction(goal: string): Promise<Criteri
           "reason": string,
           "suggestedFixes": string
         }
-      ]`.replace(/\s+/g, " ")
+      ]
+      IMPORTANT: the isSMART key MUST be a boolean value (true or false)
+      `.replace(/\s+/g, " ")
     ),
     new HumanMessage(`Goal: ${goal}`),
   ]);
+  let parsedResponse;
+  try {
+    parsedResponse = JSON.parse(response.content as string);
+  } catch (error) {
+    console.error("Failed to parse JSON response:", response.content);
+    throw new Error("Invalid JSON response from OpenAI API");
+  }
 
-  return JSON.parse(response.content as string);
+  return parsedResponse;
 }

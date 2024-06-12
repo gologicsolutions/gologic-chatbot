@@ -27,8 +27,8 @@ const isSmartGoal: AnnotatedFunction<any> = {
   implementation: async (goal: string) => {
     // Here you would add the actual implementation to check if the goal is SMART.
     // For example, making an API call or performing local validation.
-    const result = await smartGoalValidationFunction(goal);
     console.log("goal =>", goal);
+    const result = await smartGoalValidationFunction(goal);
     console.log("result =>", result);
     
     // Process the result to extract and explain the details if not all are SMART.
