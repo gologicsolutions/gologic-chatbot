@@ -3,8 +3,8 @@ import { CopilotRuntime, OpenAIAdapter } from "@copilotkit/backend";
 import { createChatbotFlow } from "./researchPlays";
 import { AnnotatedFunction } from "@copilotkit/shared";
 // import assessmentsData from '../../../../data/assessments.json';
-import playsData from "../../../../data/plays.json";
-import questions from "../../../../data/assessments.json";
+// import playsData from "../../../../data/plays.json";
+// import questions from "../../../../data/assessments.json";
 
 export interface Answer {
   question: string;
@@ -30,11 +30,12 @@ const generatePlays: AnnotatedFunction<any> = {
   ],
   implementation: async (answers) => {
     // The actual function implementation.
-    const existingPlays = JSON.stringify(playsData);
+    // const existingPlays = JSON.stringify(playsData);
     console.log("answers =>", answers);
-    const result = await createChatbotFlow(answers, existingPlays);
-    console.log("result =>", result);
-    return result;
+    // const result = await createChatbotFlow(answers, existingPlays);
+    return answers //remove this line
+    // console.log("result =>", result);
+    // return result;
   },
 };
 
@@ -53,8 +54,9 @@ const getQuestions: AnnotatedFunction<any> = {
   ],
   implementation: async (assessmentType) => {
     console.log("assessmentType =>", assessmentType);
-    console.log("questions =>", questions)
-    return questions;
+    return assessmentType //remove this line
+    // console.log("questions =>", questions)
+    // return questions;
   },
 };
 
