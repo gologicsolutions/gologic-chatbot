@@ -16,7 +16,7 @@ export async function smartGoalValidationFunction(
     modelName: "gpt-4o",
     openAIApiKey: process.env["OPENAI_API_KEY"],
   });
-
+  
   const response = await openAI.invoke([
     new SystemMessage(
       `You are an expert in setting SMART goals. Evaluate the following goal and provide feedback on each criterion (Specific, Measurable, Achievable, Relevant, Time-bound) in the following JSON format:

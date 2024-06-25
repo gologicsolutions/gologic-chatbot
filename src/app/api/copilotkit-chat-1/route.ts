@@ -1,5 +1,9 @@
 // Import necessary modules and classes from various packages.
-import { CopilotRuntime, OpenAIAdapter } from "@copilotkit/backend";
+import {
+  CopilotRuntime,
+  OpenAIAdapter,
+  OpenAIAssistantAdapter,
+} from "@copilotkit/backend";
 import { smartGoalValidationFunction } from "./smartGoalValidation";
 import { AnnotatedFunction } from "@copilotkit/shared";
 
@@ -11,7 +15,6 @@ export interface Answer {
 // Define a runtime environment variable, indicating the environment where the code is expected to run.
 export const runtime = "edge";
 
-
 const isSmartGoal: AnnotatedFunction<any> = {
   name: "isSmartGoal", // Function name.
   description: "Call this function to check if a given goal is SMART", // Function description.
@@ -20,7 +23,8 @@ const isSmartGoal: AnnotatedFunction<any> = {
     {
       name: "goal", // Argument name.
       type: "string", // Argument type.
-      description: "The business goal the user wants to check for SMART criteria", // Argument description.
+      description:
+        "The business goal the user wants to check for SMART criteria", // Argument description.
       required: true, // Indicates that the argument is required.
     },
   ],
@@ -30,24 +34,28 @@ const isSmartGoal: AnnotatedFunction<any> = {
     console.log("goal =>", goal);
     const result = await smartGoalValidationFunction(goal);
     console.log("result =>", result);
-    
+
     // Process the result to extract and explain the details if not all are SMART.
-    const allSmart = result.every(criteria => criteria.isSMART);
-    
+    const allSmart = result.every((criteria) => criteria.isSMART);
+
     if (allSmart) {
       return {
-        message: "That's fantastic! How much time are you dedicating to this goal? Are you working on it full-time, part-time, or as a side gig?",
+        message:
+          "That's fantastic! How much time are you dedicating to this goal? Are you working on it full-time, part-time, or as a side gig?",
         isSmart: true,
-        details: result
+        details: result,
       };
     } else {
-      const explanation = result.filter(criteria => !criteria.isSMART).map(criteria => {
-        return `Criteria: ${criteria.criteria}\nReason: ${criteria.reason}\nSuggested Fixes: ${criteria.suggestedFixes}`;
-      }).join("\n\n");
+      const explanation = result
+        .filter((criteria) => !criteria.isSMART)
+        .map((criteria) => {
+          return `Criteria: ${criteria.criteria}\nReason: ${criteria.reason}\nSuggested Fixes: ${criteria.suggestedFixes}`;
+        })
+        .join("\n\n");
       return {
         message: `The goal is not fully SMART. Here are the details:\n\n${explanation}`,
         isSmart: false,
-        details: result
+        details: result,
       };
     }
   },
@@ -62,5 +70,8 @@ export async function POST(req: Request): Promise<Response> {
   });
 
   // Use the CopilotBackend instance to generate a response for the incoming request using an OpenAIAdapter.
-  return copilotKit.response(req, new OpenAIAdapter());
+  return copilotKit.response(
+    req,
+    new OpenAIAssistantAdapter({ assistantId: "asst_ivdD4nwhlM7YcYUOZ5XtWlHw", retrievalEnabled: false, codeInterpreterEnabled: false })
+  );
 }
