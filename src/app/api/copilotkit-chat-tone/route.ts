@@ -1,13 +1,8 @@
 // Import necessary modules and classes from various packages.
 import { CopilotRuntime, OpenAIAdapter } from "@copilotkit/backend";
-import { createChatbotFlow } from "./researchPlays";
 import { AnnotatedFunction } from "@copilotkit/shared";
-// import assessmentsData from '../../../../data/assessments.json';
 import questions from "../../../../data/assessments.json";
 import { updatingToneFunction } from "./ai-tone";
-
-const userTone =
-  "The landscape of remote work has evolved significantly in recent years, driven by advancements in technology and changing attitudes towards workplace flexibility. Companies worldwide are increasingly recognizing the benefits of allowing employees to work from home, including increased productivity, reduced overhead costs, and improved employee satisfaction. However, this transition also presents challenges, such as ensuring robust cybersecurity measures, maintaining effective communication, and fostering a cohesive company culture remotely. To address these issues, organizations are investing in digital collaboration tools, comprehensive training programs, and virtual team-building activities. As the remote work model becomes more prevalent, businesses must continuously adapt their strategies to balance flexibility with operational efficiency, ensuring long-term success in a dynamic and competitive market.";
 
 export interface Answer {
   question: string;

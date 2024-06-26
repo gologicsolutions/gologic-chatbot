@@ -1,9 +1,6 @@
 // Import necessary modules and classes from various packages.
 import { CopilotRuntime, OpenAIAdapter } from "@copilotkit/backend";
-import { createChatbotFlow } from "./researchPlays";
 import { AnnotatedFunction } from "@copilotkit/shared";
-// import assessmentsData from '../../../../data/assessments.json';
-import playsData from "../../../../data/plays.json";
 import questions from "../../../../data/assessment.json";
 
 export interface Answer {
@@ -30,11 +27,11 @@ const generatePlays: AnnotatedFunction<any> = {
   ],
   implementation: async (answers) => {
     // The actual function implementation.
-    const existingPlays = JSON.stringify(playsData);
+    // const existingPlays = JSON.stringify(playsData);
     console.log("answers =>", answers);
-    const result = await createChatbotFlow(answers, existingPlays);
-    console.log("result =>", result);
-    return result;
+    // const result = await createChatbotFlow(answers, existingPlays);
+    // console.log("result =>", result);
+    return answers;
   },
 };
 
