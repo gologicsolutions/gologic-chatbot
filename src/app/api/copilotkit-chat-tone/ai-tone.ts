@@ -72,7 +72,7 @@ export async function userSpecificTone(
           "description": "What is your business current stage"
         },
         ]
-      in which we have different Questions.I am providing you a tone you have to re phrase  questions content to that specific tone and after making changes return me the array of object in the following JSON format:
+      in which we have different Questions.You have to maintain important terms bold which are in ' and I am providing you a tone you have to re phrase questions content to that specific tone and after making changes return me the array of object in the following JSON format:
      [
       {
         "content": "Your business is still ...",

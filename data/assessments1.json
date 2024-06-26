@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Where does you do business",
+    "description": "",
+    "options" : [
+      {
+        "title": "Brick & Morter",
+        "description": "you business is in launch phase"
+      },
+      {
+        "title": "Commercial Space",
+        "description": "you business is in operating phase"
+      },
+      {
+        "title": "Shared workspace",
+        "description": "you business is not functional"
+      }
+    ]
+  },
+  {
+    "title": "What stage your business in",
+    "description": "You have a business and you answer this information before as well so business is still mean if you are still on same position",
+    "options" : [
+      {
+        "title": "Pre-Launch",
+        "description": "you business is in launch phase"
+      },
+      {
+        "title": "Operating",
+        "description": "you business is in operating phase"
+      },
+      {
+        "title": "On-Hold",
+        "description": "you business is not functional"
+      }
+    ]
+  },
+  {
+    "title": "Did your business make any revenue last year",
+    "description": "payment processor is what you use for payments",
+    "options" : [
+      {
+        "title": "Yes"
+      },
+      {
+        "title": "No"
+      }
+    ]
+  },
+  {
+    "title": "How much revenue did it make last year?",
+    "description": ""
+  },
+  {
+    "title": "How much so far did you make this year?",
+    "description": ""
+  }
+]

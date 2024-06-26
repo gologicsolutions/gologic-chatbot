@@ -38,7 +38,7 @@ export default function AIPresentation() {
         instructions={instructions}
         defaultOpen={true}
         labels={{
-          title: "Generate plays",
+          title: "5th grade tone using openAI",
           initial:
             "Hi you! 👋 I can generate your plays to improve your business!",
         }}

@@ -1,0 +1,83 @@
+[
+  {
+    "content": "Your business is still ...",
+    "options": ["Pre-Launch", "Operating", "On-Hold"],
+    "description": "What is your business current stage"
+  },
+  {
+    "content": "Have you decided on a 'payment processor' for your business?",
+    "options": [],
+    "description": "Decision on payment processor"
+  },
+  {
+    "content": "Which 'payment processor'?",
+    "options": ["Stripe", "Paypal", "Other"],
+    "description": "Choose your payment processor"
+  },
+  {
+    "content": "What types of payments will you accept for your business",
+    "options": [],
+    "description": "Types of payments your business will accept"
+  },
+  {
+    "content": "Do you need help with any of the following?",
+    "options": [
+      "Downloading Stripe App to a Mobile Device",
+      "Adding & Managing Products",
+      "Creating a Payment Link",
+      "Adding & Managing Customers",
+      "Creating & Managing Invoices",
+      "Customizing an Invoice Template",
+      "Integrating Stripe with QuickBooks",
+      "None of These"
+    ],
+    "description": "Help needed with Stripe"
+  },
+  {
+    "content": "Would you like to learn more about 'pricing strategies'?",
+    "options": [],
+    "description": "Interest in learning about pricing strategies"
+  },
+  {
+    "content": "Do you use 'Point of Sale' System for business?",
+    "options": [],
+    "description": "Use of Point of Sale System"
+  },
+  {
+    "content": "Do you need help with any of the following?",
+    "options": [
+      "Transactions",
+      "Expenses",
+      "Invoicing",
+      "Taxes",
+      "Reports and Statements",
+      "None of these"
+    ],
+    "description": "Help needed with financial tasks"
+  },
+  {
+    "content": "Do you need help with any of the following?",
+    "options": [
+      "Adding Items",
+      "Customizing Your Item Grid",
+      "Setting Up a Customer Directory",
+      "Managing Receipts",
+      "Ordering Hardware",
+      "Creating and Managing Invoices",
+      "Creating a POS Passcode and Managing Team Member Access",
+      "Setting Up Multiple Locations",
+      "None of These"
+    ],
+    "description": "Help needed with POS setup"
+  },
+  {
+    "content": "Are you using a bookkeeping or accounting tool right now?",
+    "options": [],
+    "description": "Current use of bookkeeping or accounting tool"
+  },
+  {
+    "content": "Have you or an Accountant been bookkeeping for your business?",
+    "options": [],
+    "description": "Bookkeeping by you or an accountant"
+  }
+]

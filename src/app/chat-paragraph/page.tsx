@@ -25,7 +25,6 @@ Once you have the questions, you must ask the questions in the given order and o
 Once you have asked all the questions, based on user answers you will generate the plays. To do that you will call the function named generatePlays, 
 you must send as argument all the questions with each correspondent answer with the format:
 question1: answer1, question2: answer2, question3: answer3
-IMPORTANT:Start with an empathetic and thoughtful response, then provide the explanation
 `;
 
 export default function AIPresentation() {
@@ -35,7 +34,7 @@ export default function AIPresentation() {
         instructions={instructions}
         defaultOpen={true}
         labels={{
-          title: "Generate plays",
+          title: "Strong tone using paragraph of questions",
           initial:
             "Hi you! 👋 I can generate your plays to improve your business!",
         }}

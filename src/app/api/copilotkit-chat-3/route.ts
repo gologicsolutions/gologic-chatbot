@@ -4,8 +4,7 @@ import { createChatbotFlow } from "./researchPlays";
 import { AnnotatedFunction } from "@copilotkit/shared";
 // import assessmentsData from '../../../../data/assessments.json';
 import playsData from "../../../../data/plays.json";
-import questions from "../../../../data/assessments.json";
-import { updatingToneFunction } from "./ai-tone";
+import questions from "../../../../data/assessment.json";
 
 export interface Answer {
   question: string;
@@ -54,9 +53,8 @@ const getQuestions: AnnotatedFunction<any> = {
   ],
   implementation: async (assessmentType) => {
     console.log("assessmentType =>", assessmentType);
-    console.log("questions =>", questions);
-    const result = await updatingToneFunction(questions);
-    return result;
+    console.log("questions =>", questions)
+    return questions;
   },
 };
 
