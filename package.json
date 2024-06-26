@@ -10,7 +10,6 @@
     "create-assistant": "ts-node src/app/scripts/openAI/openAIAssitant.ts"
   },
   "dependencies": {
-    "@copilotkit/backend": "^0.37.0",
     "@copilotkit/react-core": "^0.37.0",
     "@copilotkit/react-textarea": "^0.37.0",
     "@copilotkit/react-ui": "^0.37.0",

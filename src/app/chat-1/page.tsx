@@ -7,6 +7,7 @@ import {
 import { CopilotSidebar } from "@copilotkit/react-ui";
 import "@copilotkit/react-ui/styles.css";
 import "@copilotkit/react-textarea/styles.css";
+import { threadId } from "worker_threads";
 
 const instructions = `The initial chat starts with a message from the user specifying a business goal they have
 (if not, try to ask in another way with an example of goals that meet the SMART criteria).
@@ -29,12 +30,16 @@ If the isSmart value is true, then ask, "That's fantastic!
 How much time are you dedicating to this goal? Are you working on it full-time,
 part-time, or as a side gig?" in a user-friendly manner and end the chat. If the isSmart
 value is false, explain the reason and suggest solutions based on what the backend returned.
-`
+`;
 
 export default function AIPresentation() {
-
   return (
-    <CopilotKit runtimeUrl="/api/copilotkit-chat-1/">
+    <CopilotKit
+      body={{
+        threadId: "thread_WiZCpBzoFi8nU08xXxUC17Gj",
+      }}
+      runtimeUrl="/api/copilotkit-chat-1/"
+    >
       <CopilotSidebar
         instructions={instructions}
         defaultOpen={true}
@@ -45,9 +50,7 @@ export default function AIPresentation() {
         }}
         clickOutsideToClose={false}
       >
-        <div>
-          Go Tackle chatbot V1 (AI Execution Plan)
-        </div>
+        <div>Go Tackle chatbot V1 (AI Execution Plan)</div>
       </CopilotSidebar>
     </CopilotKit>
   );

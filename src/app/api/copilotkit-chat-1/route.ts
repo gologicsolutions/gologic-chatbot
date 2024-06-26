@@ -72,6 +72,9 @@ export async function POST(req: Request): Promise<Response> {
   // Use the CopilotBackend instance to generate a response for the incoming request using an OpenAIAdapter.
   return copilotKit.response(
     req,
-    new OpenAIAssistantAdapter({ assistantId: "asst_ivdD4nwhlM7YcYUOZ5XtWlHw", retrievalEnabled: false, codeInterpreterEnabled: false })
+    new OpenAIAssistantAdapter({
+      assistantId: "asst_ALpUjgwzn57vyR699xkNPU96",
+      retrievalEnabled: false,
+    })
   );
 }
