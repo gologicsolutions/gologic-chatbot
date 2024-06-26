@@ -1,0 +1,13 @@
+[
+  "Your business is still ...\n- Pre-Launch\n- Operating\n- On-Hold",
+  "Have you decided on a payment processor for your business?",
+  "Which payment processor?\n- Stripe\n- Paypal\n- Other",
+  "What types of payments will you accept for your business",
+  "Do you need help with any of the following?\n- Downloading Stripe App to a Mobile Device\n- Adding & Managing Products\n- Creating a Payment Link\n- Adding & Managing Customers\n- Creating & Managing Invoices\n- Customizing an Invoice Template\n- Integrating Stripe with QuickBooks\n- None of These",
+  "Would you like to learn more about pricing strategies?",
+  "Do you use Point of Sale System for business?",
+  "Do you need help with any of the following?\n- Transactions\n- Expenses\n- Invoicing\n- Taxes\n- Reports and Statements\n- None of these",
+  "Do you need help with any of the following?\n- Adding Items\n- Customizing Your Item Grid\n- Setting Up a Customer Directory\n- Managing Receipts\n- Ordering Hardware\n- Creating and Managing Invoices\n- Creating a POS Passcode and Managing Team Member Access\n- Setting Up Multiple Locations\n- None of These",
+  "Are you using a bookkeeping or accounting tool right now?",
+  "Have you or an Accountant been bookkeeping for your business?"
+]

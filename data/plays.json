@@ -1,0 +1,897 @@
+[
+    {
+        "id": "Connect-2328-42fc-a36c-Stripe",
+        "description": "Set up Stripe",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "1a99-52d1-4b31-be1d-bf0e4bdset-up-intafb-shop",
+        "description": "Set up Facebook & Instagram Shops",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "Square-8677-Google-829b-Domain",
+        "description": "Import Google Domain to Your Square Website",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "Automate-0606-4e31-95bc-3Squarespace",
+        "description": "Automate After-Sales Email on Squarespace",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "f7d9cb48-0691-4fce-a767-49255615c83bgoogle_voice",
+        "description": "Set Up Google Voice",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "37ffe8d2-0de1-4ead-b918-46a43db69Square",
+        "description": "Set Up Square POS",
+        "title": "Square POS"
+    },
+    {
+        "id": "Trademark-17a2-4310-90fc-Brand",
+        "description": "Maintaining Your Trademark Registration",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "f7d9cb48-0691-4fce-a767-49255615c83bdomainUpdated",
+        "description": "Set Up a Google Domain",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "Create-7b38-Menu-bb91-Mobile",
+        "description": "Design a Menu",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "d18298e5-7f8b-46a5-8ad0-c76b572d49bb",
+        "description": "Separate Business & Personal Finances",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "Customize3-f04e-446a-Item-Categories",
+        "description": "Customize Item Grid with Categories",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "ba3a0730-b891-4ea7-988a-a88a5759d0ce",
+        "description": "Establish Internal Controls",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "6f54a5d7-3782-43eb-988b-ec73191b39d6",
+        "description": "Create Facebook Event",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "6ad23434-6adf-4e5c-99a1-1f2f02b8255c",
+        "description": "Preparing to File Your Trademark Application",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "83ddae31-0819-4721-af67-63b97e83760b",
+        "description": "Manage Digital Receipts",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "cdb9d823-6b4c-49a7-9589-1c20a72fd5bc",
+        "description": "Manage Accounts Payable & Receivable",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "c8efdeee-5f6f-4cdc-ae36-58acd8e9b5cdquickbook__test",
+        "description": "Set Up QuickBooks Account",
+        "title": "Set Up QuickBooks Account"
+    },
+    {
+        "id": "businesscb4-101f-4805-b5cd-7a9978e93e15Plan",
+        "description": "Create a Business Plan",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "1a99-52d1-4b31-be1d-bf0e4bdbenefitLoyalty",
+        "description": "Benefits of a Loyalty Program",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "f88d871c-86a2-4b31-85b4-406da6d63666",
+        "description": "Add a Contact Us Page",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "Squarespace-ff92-Not-Google-Domain",
+        "description": "Import Domain to Squarespace Website",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "39229918-2a39-4b3a-857c-737b03ff2-authorized",
+        "description": "Authorize Senders via SPF",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "770eccbc-1626-443c-8607-f8bf5562fc80branded",
+        "description": "Set Up Branded Templates in Google Drive",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "08Square-ec66-Account-af24-Connect-apiV",
+        "description": "Set Up Square",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "9243f301-bfcb-4083-8ef2-0683f7a28c6b",
+        "description": "Industry-Relevant Facebook Groups",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "c53d872b-2520-4aaf-97b5-3b0802587485",
+        "description": "Apply Your Logo to Your Site",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "a5fd4a23-759c-4fb3-9bf6-d4cac8be26b9",
+        "description": "Avoid Predatory Loans",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "a26d69d1-Sales-4d72-b2ce-036Estimates",
+        "description": "Create Estimates in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "345e00f0-b244-4d42-9361-002211424vvt",
+        "description": "Open Business Credit Card",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "Square78-a683-Account-b1f0-1c36Setup",
+        "description": "Set Up Square",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "Googlee0-4non-Email-8d1b-e7705Address",
+        "description": "Use a Non-Google Email Address for a Google Workspace Account",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "6bb7203c-f86d-4669-a598-b3c0d1e81631matrix",
+        "description": "Understanding the Pricing Strategy Matrix",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "c45e00f0-b244-4d42-9361-002211424ffb",
+        "description": "Build your Business Credit Score",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "S11a99-52d1-4b31-be1d-bf0e4bdmobilePOS",
+        "description": "Create Your Mobile POS",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "755c7036-c831-40f6-b5e4-752966a3c5f8",
+        "description": "Set Up Cash App",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "1d1874fd-1fa1-4386-ae99-Gift_Cards",
+        "description": "Create & Manage Gift Cards",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "F11a99-52d1-4b31-be1d-bf0e4bdcashflow",
+        "description": "Use the Cash Flow Planner in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "Business-a31d-4760-b68c-3caCreditCard",
+        "description": "Open a Business Credit Card",
+        "title": "Financing Level 2"
+    },
+    {
+        "id": "Square7d-aec8-4ea4-81a8-MultipleLocations",
+        "description": "Set Up Multiple Locations",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "56e1ae63-36bf-419b-9214-8e16ac93e53c_uploadPhoto",
+        "description": "Add Photos to Google Business Profile",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "4aab9226-63f7-DUNS-b6b9-13eb24Number",
+        "description": "Apply for a DUNS Number",
+        "title": "Financing Level 2"
+    },
+    {
+        "id": "Create-a22c-4b84-menu-Restaurant",
+        "description": "Design a Menu",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "Automate-0f03-4d06-a1b8-Facebook37ec",
+        "description": "Automate Facebook Messenger Replies",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "documentbd877-38b6-4bd8-aa90-c86c5c5b75upload",
+        "description": "Upload a Document to Google Drive",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "connectAccountF11a99-52d1-4b31-be1d-bf0e4bdquickbooks",
+        "description": "Connect Bank Account to QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "b4a8ff7d-c1e1-40a3-abe0-bd7d3f11ca71",
+        "description": "Add & Manage Products",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "0802d0ad-5b92-47f5-81b2-c71289544295",
+        "description": "Best Practices Quarterly Tasks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "d062dcb6-fa71-4412-97ee-057ef9dca370",
+        "description": "Set Up DocuSign Google Add-On",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "200cb766-ae45-4bcc-9cdf-e8bf445b57888",
+        "description": "Find Your Product & Service Code",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "connect-squareF11a99-52d1-4b31-be1d-bf0e4bdquickbooks",
+        "description": "Connect to Square in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "Squarespace-beca-Google-9fb5-Domain",
+        "description": "Import Google Domain to Your Squarespace Website",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "chrome1a99-52d1-4b31-be1d-bf0e4bdprofile",
+        "description": "Create & Edit Google Account Profiles",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "c2a7ff23-ceb3-4ec9-b5e4-8aa42f18b113quickbook",
+        "description": "Connect QuickBooks",
+        "title": "Finance Level 1"
+    },
+    {
+        "id": "RetailSquare-bae3-4166-Create-Square",
+        "description": "Create Your Square Website",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "1ee689b7-8d1d-4f0a-acb3-e1a107ea88f8-tackle-education",
+        "description": "Create & Manage Invoices",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "1a99-52d1-4b31-be1d-bf0e4bdloyalty",
+        "description": "Manage Square Loyalty Program",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "ca28aa4b-623a-4574-aa26-db3041694854Accounting",
+        "description": "Determine Your Accounting Method",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "S11a99-52d1-4b31-be1d-bf0e4bdsq-instore",
+        "description": "Set Up Square Pickup",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "dd69c48b-c2e8-40d5-9367-96624a58a30f",
+        "description": "Add Business Data to Google Business Profile",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "ba3aae81-649c-4d28-b9d9-5c801b9a8140",
+        "description": "Create a Business Name",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "67f91eb1-968f-4bc7-94b6-3b07LinkedIn",
+        "description": "Setting Up LinkedIn",
+        "title": "Marketing Level 2"
+    },
+    {
+        "id": "d06b67c3-f0d1-487c-8bd4-c8be55b19f35",
+        "description": "Find Your NIGP Codes",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "0c59ee07-5535-4a8a-9aff-3809d0b6c483developbudget",
+        "description": "Develop a Budget",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "8cda351c-174c-40b6-98fc-ea1131982929",
+        "description": "Why You Should Start Thinking About Trademarking",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "8098db2e-f3e9-438b-966d-3b56ecc7f9a2inbox",
+        "description": "Create Collaborative Inboxes & Add Delegates",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "Managing-34be-4ecf-9560-614c82Orders",
+        "description": "Manage Pickup Orders Using Square",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "1a99-52d1-4b31-be1d-bf0e-upload-menu",
+        "description": "Upload a Menu to Square Site",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "1abc4c3f-78f1-41cb-bcc5-fa92948e0452BusinessandPersonal",
+        "description": "Keep Your Personal & Business Finances Completely Separate",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "6cbc5f25-754c-4c11-9dd6-20fb8477ab00",
+        "description": "Set Up Venmo",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "Create-4a92-Menu-a827-Commercial",
+        "description": "Design a Menu",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "5f5ead3f-cc80-49e1-8ce7-e2d734cf6f00",
+        "description": "Sales Portal in Instagram Shop Using Square",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "9ab54a7a-ca8a-4f56-a604-cdd9d13ce5d4",
+        "description": "Find Your NAICS Codes",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "cc325769-96df-48bb-8faf-39303d38c00e",
+        "description": "System for Award Management (SAM) Registration",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "eb7c51e1-b485-4dc2-be3e-c1ec5cac-ABR1",
+        "description": "The Impact of Amazon Brand Registry",
+        "title": "Amazon Brand Registry"
+    },
+    {
+        "id": "7284e70e-4433-4b3b-9a04-82f58be85006ManageSales_SalesTax",
+        "description": "Set Up & Manage Sales in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "7d1d0953-a1a6-44c3-ba51-0b44620c199d",
+        "description": "Set Up Grammarly",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "chrome-setup1a99-52d1-4b31-be1d-bf0e4bddesktop",
+        "description": "Download & Set Up Google Chrome",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "7e9f289c-3e7c-4aa6-b392-671827b72079",
+        "description": "Using Google Search Console",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "ef2ce344-7f38-4a02-b388-5595ae876aa7",
+        "description": "Set Up Zelle",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "5116a66c-9a89-41bc-a555-7b01d549e8d3",
+        "description": "Tracking Cash Payments",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "8a64f6db-52e3-44d4-ETSY-d5c75Account",
+        "description": "Set Up Etsy Account",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "5c59b2fa-e6ff-4d26-b9b3-dbd216e93764",
+        "description": "Set Up Instagram",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "Createbe9e-4d7c-434e-9ff1-291621e3flogo",
+        "description": "Create a Logo",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "Squarespace-340a-Theme-b5d6-Template",
+        "description": "Select Squarespace Template & Theme",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "account-quicke3-674c-41e7-9bc0-92c3-setup",
+        "description": "Set Up QuickBooks Account",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "cf4956ac-9280-11ed-a1eb-0242ac120002test",
+        "description": "Create & Edit a Menu",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "cac95831-2109-4c05-b653-853ae3fb5337",
+        "description": "Business Financing & How to Qualify for It",
+        "title": "Financing Level 2"
+    },
+    {
+        "id": "fb28f9c5-b91b-496e-9a95-9fc1b193a7b8",
+        "description": "Best Practices Monthly Tasks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "7e5813f5-b281-4f28-9efa-741f8babcb0b",
+        "description": "Update Google Chrome",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "Squarespace-3691-Social-b2c3-Media",
+        "description": "Connect Social Accounts to Your Website",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "Orderb50-8deb-4527-a09f-669Hardware",
+        "description": "Order Square Hardware",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "01085a8a-488b-4ab6-93c2-be4955855f55",
+        "description": "Monthly Website Check with Google Search Console",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "Policy-da34-Page-bb2e-a2d74836a199",
+        "description": "Refund Policy Page",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "Customer-eb16-42d9-9b7a-0dafFeedback",
+        "description": "View & Filter Customer Feedback",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "googleCaldb2e-f3e9-438b-966d-3b56ecc7f9a2editEvent",
+        "description": "Manage Events in Google Calendar",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "signatured877-38b6-4bd8-aa90-c86c5c5b75block",
+        "description": "Set Up Your Signature Block in Gmail",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "37ffe8d2-0de1-4ead-b918-46a43db69google_chrome",
+        "description": "Download & Set Up Chrome On Mobile Device",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "f7d9cb48-0691-4fce-a767-49255615c83bsquare",
+        "description": "Set Up Squarespace",
+        "title": "Set up Squarespace"
+    },
+    {
+        "id": "Quickbook-939e-47fd-8bf7-AddandPay",
+        "description": "Add & Pay Bills in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "0991bd52-5264-491a-9aa4-1530ac34107T",
+        "description": "Adding a Product to Squarespace",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "489e388f-8898-4f43-8cc7-c9e0b461c234",
+        "description": "Integrate Stripe & QuickBooks",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "77a98be3-674c-41e7-9bc0-457d7192c3bAliases",
+        "description": "Create & Use Aliases in Gmail",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "79656bf4-09d2-11ed-861d-0242ac120002play2",
+        "description": "Apply for an EIN",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "715c3bcd-e24c-4d7e-8bb6-d6e7cc8a95a7",
+        "description": "Free Photos & Illustrations",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "Setupd40-4699-4416-eBay-a40f8Account",
+        "description": "Set Up eBay Account",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "df4fee01-844e-4c45-95d7-1506baffcad1",
+        "description": "Add Your Logo to Google Workspace",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "generic-f4bc244f-b8f2-4ab5-b54c-0ea443b6922b",
+        "description": "Sales Portal in Instagram Shop",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "5cd33f6e-7802-4082-b75f-7c9a9053324c",
+        "description": "Import Your Domain to Your Square Website",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "5c8d6093-8ed7-450e-8a76-d6fd4282082d",
+        "description": "Set Up Gmail",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "Trademark-3eb5-4ac3-Application",
+        "description": "Filing Your Trademark Application",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "75249ecd-e3b3-4a09-8a15-d3f40f397addUsers",
+        "description": "Add Workspace Users",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "d4071042-1da4-4308-9f42-d04d1dd79313",
+        "description": "Best Practices Weekly Tasks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "Squarespace-03ae-Apply-ad40-Logo",
+        "description": "Add Your Logo to Your Squarespace Website",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "4dbe3d0e-198c-4a7d-bef4-59d1239c-googleMerchant1",
+        "description": "Set Up a Google Merchant Account",
+        "title": "Sales Level 3"
+    },
+    {
+        "id": "e323bce9-7589-4a5d-ad12-a3dbbc115dab",
+        "description": "When to Update Web Content",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "f280db40-53ba-4644-baca-77ec869a4Door-dash1",
+        "description": "Connect DoorDash to Square",
+        "title": "Sales Level 3"
+    },
+    {
+        "id": "200cb766-ae45-4bcc-9cdf-e8bf445b3733",
+        "description": "Find Your CAGE Code & Unique Entity ID",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "dc60469f-74e6-4e2c-85e6-219ee2a8060c",
+        "description": "Set Up QuickBooks Automated Report Sending",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "manually-add1a99-52d1-4b31-be1d-bf0e4expenses",
+        "description": "Manually Add Expenses in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "5f5ead3f-cc80-49e1-8ce7-e2d734cf6f01",
+        "description": "Facebook Page Moderation/Profanity Filter",
+        "title": "Facebook Page Moderation/Profanity Filter"
+    },
+    {
+        "id": "79f827d8-d415-449e-bbdf-3758ee872f85",
+        "description": "Set Up Square for Restaurant",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "79f827d8-d415-449e-bbdf-3758ee-api-key",
+        "description": "Set Up Square API for Restaurant",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "885636af-0842-408b-bdec-cd5f797bd3b0Create_and_Send_Invoice",
+        "description": "Create & Send an Invoice in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "7897a1f7-337e-401c-8322-600670710243",
+        "description": "Add & Manage Customers",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "google_drive8db2e-f3e9-438b-966d-3b56ecc7f9a2permission",
+        "description": "Share & Change Permissions in Google Drive",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "Setupd91-2781-433e-ac37-5e888Mercari",
+        "description": "Set Up Mercari Account",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "Google-df24-49b5-Workspace-Account",
+        "description": "Set Up Google Workspace",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "e5d9099a-b6e6-4395-a3c0-Kitchen",
+        "description": "Set Up a Kitchen Display",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "import-F11a99-52d1-4b31-be1d-bf0e4bdtransaction",
+        "description": "Import Transactions",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "7dd3cf37-1fbb-43bd-8dfc-2c6fc274c7-sqaure-12-passcode1",
+        "description": "Change Square POS Passcodes & Team Member Access",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "e8a6517b-9aa4-406b-9f1f-6b327c3e396c",
+        "description": "Add Items to Square",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "e5f5a457-58e8-4340-b256-d1c40b35f2cb",
+        "description": "Set Up MX Records",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "1a99-52d1-4b31-be1d-bf0e4bdIntegrteInstaFB",
+        "description": "Integrate Facebook & Instagram with Square",
+        "title": "Sales Level 2"
+    },
+    {
+        "id": "7fa87141-0391-4bca-804d-46df218282d3",
+        "description": "Target Audience & Buyer Persona",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "fd0dd43d-808e-4777-aedc-5fb3ab50ee3ebusiness_bank_play",
+        "description": "Open a Business Bank Account",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "Facebook49-0a26-4127-a054-29Moderation",
+        "description": "Facebook Page Moderation/Profanity Filter",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "644a944c-fa9d-4328-9d19-ce97e89cf393",
+        "description": "Connect Stripe",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "e8295309-516d-47c5-8b14-82d5ce93bb36",
+        "description": "Select a Template & Theme",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "c457245e-f8e1-42a9-a33c-504eadbd5415TrackMileage",
+        "description": "Track Mileage in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "61dd1b9e-8a24-4061-b449-67c64b14d181",
+        "description": "Manage Printed Receipts",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "google98be3-674c-41e7-9bc0-457d7192c3business_profile",
+        "description": "Set Up Google Business Profile",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "4904966e-3b07-462c-80ac-da2e67a79183",
+        "description": "What is Business Financing & Qualification",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "f4bc244f-b8f2-4ab5-b54c-0ea443b6922b",
+        "description": "Use Squarespace to Set Up Your Instagram Sales Portal",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "d5d49d6f-6d7b-4c63-89b4-bced0784fb76",
+        "description": "Create a Payment Link",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "2198c0b5-ae02-477b-91cc-a308262dabec",
+        "description": "Tracking Employee Time",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "051565d3-55a3-441a-8eff-6b6952a10570",
+        "description": "Automate Facebook Messenger Replies",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "0d2d5cb4-101f-4805-b5cd-7a9978e93e15DocuSign",
+        "description": "Set Up DocuSign",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "f1818e7c-6c9b-4ea6-b4e6-2cb58ed6fb5cManageInventory",
+        "description": "Manage Inventory & Purchase Orders in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "14545c7d-996a-46bc-9abc-14109cabfc50",
+        "description": "Understanding Your Local Competition",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "Searchf9-08ab-4f8d-91a1-ba9ceConsole",
+        "description": "Set Up Google Search Console",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "S11a99-52d1-4b31-be1d-bf0e4bdcreate-menu",
+        "description": "Create & Edit a Menu",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "b567cb28-206c-4a6d-b877-17ebe72256f4",
+        "description": "Manage Purchase Orders in Square",
+        "title": "Sales Level 4"
+    },
+    {
+        "id": "72038b9b-4960-4b6e-a194-731794979be1",
+        "description": "Best Practices Yearly Tasks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "92971a2a-f3f3-4dde-ad1d-f315c9e6b5f1",
+        "description": "Track Cash in Square",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "c9197ba7-078a-4775-a09e-5ac1b002eee4",
+        "description": "Set Up Facebook",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "cccc5235-834c-439c-a007-26b12b202eaalgma1",
+        "description": "Link Google Business Profile to Google Merchant Account",
+        "title": "Sales Level 3"
+    },
+    {
+        "id": "f933a12e-e44e-4e0e-999e-Passcodes",
+        "description": "Change POS Passcodes & Team Member Access",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "77a98be3-674c-41e7-9bc0-457d7192c3bREVIEW",
+        "description": "Collect & Respond to Reviews on Google Business Profile",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "8dcfcbd6-807c-4bf3-a174-33268f2a25c2",
+        "description": "Understand Your Digital Competition",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "0c968f25-2417-46d8-996b-df9ad4a34923EstimatesBackup",
+        "description": "How to Create Estimates in Quickbooks",
+        "title": "Create Estimates"
+    },
+    {
+        "id": "contractorF11a99-52d1-4b31-be1d-bf0e4bd",
+        "description": "Set Up Contractors in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "489e388f-8898-4f43-8cc7-c9e0b461c225",
+        "description": "Add & Manage Team Members",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "F11a99-52d1-4b31-be1d-bf0e4bdviewmodifyreports",
+        "description": "View & Modify Reports in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "0c968f25-2417-46d8-996b-df9ad4a34923Estimates",
+        "description": "Create Estimates in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "S11a99-52d1-4b31-be1d-bf0e4bdsq-directory",
+        "description": "Create a Customer Directory",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "cbe71125-8c20-42b3-9a96-404385eac4f3-download-stripe",
+        "description": "Download Stripe on Your Mobile Device",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "setup1a99-52d1-4b31-be1d-bf0e4binvoicing",
+        "description": "Set Up Invoicing",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "829ea6f3-4fea-4c0f-ab51-121f905735b6gmail",
+        "description": "Set Up Gmail",
+        "title": "Gmail"
+    },
+    {
+        "id": "Register070-aa1a-4bb6-8b56-028830b840b",
+        "description": "Register Your Business",
+        "title": "Business Essentials Level 1"
+    },
+    {
+        "id": "16435990-a3ea-421e-9de9-ff42f78bd048",
+        "description": "Menu Psychology",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "5235891f-0e70-47df-9129-9125b727ea0f",
+        "description": "Create a Payment Link",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "d451c10d-cac0-455a-8616-05bf6eaf6110Setup_Expense_Settings",
+        "description": "Set Up Expense Settings in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "e9448c97-d5f8-4870-8bf6-a98735b8250c",
+        "description": "Customize Your Invoice Template",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "08Square-ec66-Account-af24-Connect",
+        "description": "Connect Square",
+        "title": "Sales Level 1"
+    },
+    {
+        "id": "c395e076-c2b1-42eb-9776-9caf63f749a3",
+        "description": "Build Your Business Credit Score",
+        "title": "Financing Level 2"
+    },
+    {
+        "id": "transactionF11a99-52d1-4b31-be1d-bf0e4bdcatogerize",
+        "description": "Categorize Transactions in QuickBooks",
+        "title": "Financing Level 1"
+    },
+    {
+        "id": "FoodSquare-bae3-4166-Create-Square",
+        "description": "Create a Square Website",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "0991bd52-5264-491a-9aa4-1530ac34107c",
+        "description": "Create an Instagram Story",
+        "title": "Marketing Level 1"
+    },
+    {
+        "id": "F11a99-52d1-4b31-be1d-bf0e4bdCaptureReciept",
+        "description": "Capture & Manage Receipts in QuickBooks",
+        "title": "Financing Level 1"
+    }
+]
