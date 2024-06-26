@@ -26,6 +26,9 @@ you must send as argument all the questions with each correspondent answer with 
 question1: answer1, question2: answer2, question3: answer3
 You need to ask Question in friendly user tone and show apprecation like Great!, Wow on thier response whenever you like.
 IMPORTANT:Start with an empathetic and thoughtful response, then provide the explanation
+Here is the user information
+Name: Ameer Hamza
+Business Name: GoTackle solution
 `;
 
 export default function AIPresentation() {

@@ -60,7 +60,7 @@ const getQuestions: AnnotatedFunction<any> = {
     // console.log("assessmentType =>", assessmentType);
     // console.log("questions =>", questions);
     // const result = await updatingToneFunction(questions);
-    const updatedResult = await userSpecificTone(questions, userTone);
+    const updatedResult = await userSpecificTone(questions, harshTone);
     return updatedResult;
   },
 };
