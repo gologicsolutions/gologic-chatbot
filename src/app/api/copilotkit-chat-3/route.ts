@@ -5,6 +5,7 @@ import { AnnotatedFunction } from "@copilotkit/shared";
 // import assessmentsData from '../../../../data/assessments.json';
 import playsData from "../../../../data/plays.json";
 import questions from "../../../../data/assessments.json";
+import { updatingToneFunction } from "./ai-tone";
 
 export interface Answer {
   question: string;
@@ -53,8 +54,9 @@ const getQuestions: AnnotatedFunction<any> = {
   ],
   implementation: async (assessmentType) => {
     console.log("assessmentType =>", assessmentType);
-    console.log("questions =>", questions)
-    return questions;
+    console.log("questions =>", questions);
+    const result = await updatingToneFunction(questions);
+    return result;
   },
 };
 
@@ -63,7 +65,8 @@ export async function POST(req: Request): Promise<Response> {
   const actions: AnnotatedFunction<any>[] = []; // Initialize an array to hold actions.
 
   // Check if a specific environment variable is set, indicating access to certain functionality.
-  if (process.env["TAVILY_API_KEY"]) { // tavily is the one that browse the internet
+  if (process.env["TAVILY_API_KEY"]) {
+    // tavily is the one that browse the internet
     actions.push(generatePlays); // Add the chatbot action to the actions array if the condition is true.
   }
   actions.push(getQuestions);
