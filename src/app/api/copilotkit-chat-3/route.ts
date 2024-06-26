@@ -3,11 +3,8 @@ import { CopilotRuntime, OpenAIAdapter } from "@copilotkit/backend";
 import { createChatbotFlow } from "./researchPlays";
 import { AnnotatedFunction } from "@copilotkit/shared";
 // import assessmentsData from '../../../../data/assessments.json';
+import playsData from "../../../../data/plays.json";
 import questions from "../../../../data/assessments.json";
-import { updatingToneFunction, userSpecificTone } from "./ai-tone";
-
-const userTone =
-  "The landscape of remote work has evolved significantly in recent years, driven by advancements in technology and changing attitudes towards workplace flexibility. Companies worldwide are increasingly recognizing the benefits of allowing employees to work from home, including increased productivity, reduced overhead costs, and improved employee satisfaction. However, this transition also presents challenges, such as ensuring robust cybersecurity measures, maintaining effective communication, and fostering a cohesive company culture remotely. To address these issues, organizations are investing in digital collaboration tools, comprehensive training programs, and virtual team-building activities. As the remote work model becomes more prevalent, businesses must continuously adapt their strategies to balance flexibility with operational efficiency, ensuring long-term success in a dynamic and competitive market.";
 
 export interface Answer {
   question: string;
@@ -33,12 +30,11 @@ const generatePlays: AnnotatedFunction<any> = {
   ],
   implementation: async (answers) => {
     // The actual function implementation.
-    // const existingPlays = JSON.stringify(playsData);
+    const existingPlays = JSON.stringify(playsData);
     console.log("answers =>", answers);
-    // const result = await createChatbotFlow(answers, existingPlays);
-    // console.log("result =>", result);
-    return answers; //remove this line
-    // return result;
+    const result = await createChatbotFlow(answers, existingPlays);
+    console.log("result =>", result);
+    return result;
   },
 };
 
@@ -56,40 +52,27 @@ const getQuestions: AnnotatedFunction<any> = {
     },
   ],
   implementation: async (assessmentType) => {
-    // console.log("assessmentType =>", assessmentType);
-    // console.log("questions =>", questions);
-    const result = await updatingToneFunction(questions);
-    // const updatedResult = await userSpecificTone(questions, userTone);
-    return result;
+    console.log("assessmentType =>", assessmentType);
+    console.log("questions =>", questions)
+    return questions;
   },
 };
-
-// const getAppreciation: AnnotatedFunction<any> = {
-//   name: "getAppreciation", // Function name.
-//   description: "Call this function to get the appreciation to do to the user", // Function description.
-//   argumentAnnotations: [],
-//   implementation: async (assessmentType) => {
-//     // console.log("assessmentType =>", assessmentType);
-//     // console.log("questions =>", questions);
-//     const result = ["Great let move forwar", "Awesome  Great to hear"];
-//     return result;
-//   },
-// };
 
 // Define an asynchronous function that handles POST requests.
 export async function POST(req: Request): Promise<Response> {
   const actions: AnnotatedFunction<any>[] = []; // Initialize an array to hold actions.
+
   // Check if a specific environment variable is set, indicating access to certain functionality.
-  if (process.env["TAVILY_API_KEY"]) {
+  if (process.env["TAVILY_API_KEY"]) { // tavily is the one that browse the internet
     actions.push(generatePlays); // Add the chatbot action to the actions array if the condition is true.
   }
-  // actions.push(getAppreciation);
   actions.push(getQuestions);
 
   // Instantiate CopilotRuntime with the actions defined above.
   const copilotKit = new CopilotRuntime({
     actions: actions,
   });
+
   // Use the CopilotBackend instance to generate a response for the incoming request using an OpenAIAdapter.
   return copilotKit.response(req, new OpenAIAdapter());
 }
