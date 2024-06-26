@@ -2,11 +2,13 @@
 
 import {
   CopilotKit,
+  useCopilotChat,
   // useCopilotAction
 } from "@copilotkit/react-core";
 import { CopilotSidebar, MessagesProps } from "@copilotkit/react-ui";
 import "@copilotkit/react-ui/styles.css";
 import "@copilotkit/react-textarea/styles.css";
+import { useId, useState } from "react";
 
 const instructions = `Your mission will be collect information about the business of our clients and with this information generate plays.
 To collect the information you will ask all the necessary questions, to know which questions you will ask you MUST call the function named getQuestions and getAppreciation for getAppreciation,
@@ -49,6 +51,10 @@ export default function AIPresentation() {
 }
 
 // const Messages = ({ messages }: MessagesProps) => {
+//   const [selectedOption, setSelectedOption] = useState(null);
+//   const { appendMessage } = useCopilotChat();
+//   const id = useId();
+
 //   let updatedMessages = messages.map((message) => {
 //     if (message.role === "user" || message.role === "assistant") {
 //       let content = message.content;
@@ -69,13 +75,27 @@ export default function AIPresentation() {
 
 //   console.log("Updated Messgea", updatedMessages);
 
+//   const handleClick = (option: any) => {
+//     setSelectedOption(option);
+//     appendMessage({ content: option, id, role: "user" });
+//   };
+
 //   return (
-//     <>
+//     <div style={{ height: "max-content", overflow: "auto" }}>
 //       <h2 style={{ color: "black" }}>
 //         Hi you! 👋 I can generate your plays to improve your business!
 //       </h2>
 //       {updatedMessages.map((message: any, index) => (
-//         <div key={index} style={{ color: "black", border: "8px" }}>
+//         <div
+//           key={index}
+//           style={{
+//             color: message.role === "user" ? "blue" : "black",
+//             border: "8px",
+//             display: "flex",
+//             margin: "3px",
+//             justifyContent: message.role === "user" ? "flex-end" : "flex-start",
+//           }}
+//         >
 //           {message.role === "user" || message.role === "assistant" ? (
 //             message.options ? (
 //               <div>
@@ -84,7 +104,14 @@ export default function AIPresentation() {
 //                   {message.options.map((option: any, idx: any) => (
 //                     <li
 //                       key={idx}
-//                       style={{ border: "3px solid black", margin: "9px" }}
+//                       style={{
+//                         border: "3px solid black",
+//                         margin: "9px",
+//                         cursor: "pointer",
+//                         backgroundColor:
+//                           selectedOption === option ? "grey" : "white",
+//                       }}
+//                       onClick={() => handleClick(option)}
 //                     >
 //                       {option}
 //                     </li>
@@ -97,6 +124,6 @@ export default function AIPresentation() {
 //           ) : null}
 //         </div>
 //       ))}
-//     </>
+//     </div>
 //   );
 // };
