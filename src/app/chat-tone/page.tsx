@@ -8,7 +8,7 @@ import { CopilotSidebar } from "@copilotkit/react-ui";
 import "@copilotkit/react-ui/styles.css";
 import "@copilotkit/react-textarea/styles.css";
 
-export const instructions = `Your mission will be collect information about the business of our clients and with this information generate plays.
+const instructions = `Your mission will be collect information about the business of our clients and with this information generate plays.
 To collect the information you will ask all the necessary questions, to know which questions you will ask you MUST call the function named getQuestions and getAppreciation for getAppreciation,
 and ask strictly the questions that you retrieve from there in the given order. IMPORTANT: to call the getQuestions function you need to send the assessmentType, 
 so first, you need to ask the user about what want to improve, the options are: financial, business essentials or marketing.
